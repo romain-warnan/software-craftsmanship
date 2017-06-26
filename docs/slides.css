@@ -1,5 +1,5 @@
 /*body {*/
-    /*background-color: #222;;*/
+/*background-color: #222;;*/
 /*}*/
 
 .reveal .main-title {
@@ -11,7 +11,7 @@
 }
 
 /*.reveal {*/
-    /*color: #eee;*/
+/*color: #eee;*/
 /*}*/
 
 .reveal .center {
@@ -54,15 +54,15 @@
     font-size: 30px;
 }
 
-.reveal .chapter.slide-background.present  {
+.reveal .chapter.slide-background.present {
     opacity: 0.2;
 }
 
-.reveal .tp.slide-background.present  {
+.reveal .tp.slide-background.present {
     opacity: 0.2;
 }
 
-.reveal .exercice.slide-background.present  {
+.reveal .exercice.slide-background.present {
     opacity: 0.3;
 }
 
@@ -113,11 +113,24 @@
     font-size: medium;
 }
 
+.reveal .button {
+    text-decoration: none;
+    background-color: #a23;
+    color: #eee;
+    padding: 10px;
+    border: solid 2px #a23;
+    border-radius: 10px;
+}
 
- /* blockquote */
+.reveal .button:hover {
+    text-decoration: none;
+    background-color: #eee;
+    color: #a23;
+    border: solid 2px #a23;
+}
 
- .reveal blockquote {
-    display:block;
+.reveal blockquote {
+    display: block;
     background: #fff;
     padding: 15px 20px 15px 45px;
     position: relative;
@@ -139,7 +152,7 @@
     color: #999;
     position: absolute;
     left: 10px;
-    top:5px;
+    top: 5px;
 }
 
 .reveal blockquote::after {

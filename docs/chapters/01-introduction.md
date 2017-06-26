@@ -2,7 +2,7 @@
 ## 1
 ### Manifeste de l’artisanat du logiciel
 
----
+===
 
 <!-- .slide: class="slide" -->
 ### Manifeste
@@ -29,26 +29,11 @@ C’est à dire qu’en recherchant les éléments de gauche, nous avons trouvé
 Cette déclaration peut être copiée librement, quelle que soit la forme, mais seulement dans sa totalité, y compris cette remarque.
 </small>
 
----
+===
+
+[Signer le manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr) <!-- .element: class="button" -->
+
+===
 
 <!-- .slide: class="slide" -->
-### Spring core
-Au démarrage de l’application, chargement du contexte
-Web : *listener*
-```xml
-<context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext.xml</param-value>
-</context-param>
-<listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-</listener>
-```
-Batch : de manière explicite en Java
-```java
-try(AbstractApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml")){
-    Service service1 = (Service) context.getBean("beanName");
-    Service service2 = context.getBean(Service.class);
-    Service service3 = context.getBean("beanName", Service.class);
-}
-```
+### À faire

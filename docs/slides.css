@@ -1,3 +1,7 @@
+/*body {*/
+    /*background-color: #222;;*/
+/*}*/
+
 .reveal .main-title {
     /* Empty */
 }
@@ -6,8 +10,16 @@
     /* Empty */
 }
 
+/*.reveal {*/
+    /*color: #eee;*/
+/*}*/
+
 .reveal .center {
     text-align: center;
+}
+
+.reveal strong {
+    color: #a23;
 }
 
 .reveal h1,
@@ -86,11 +98,11 @@
 
 .reveal ul li {
     font-size: 80%;
-    color: #1a53a1;
+    color: #a23;
 }
 
 .reveal li li {
-    color: #657b83;
+    color: #dd5566;
 }
 
 .reveal .small {
@@ -99,4 +111,37 @@
 
 .reveal label {
     font-size: medium;
+}
+
+
+ /* blockquote */
+
+ .reveal blockquote {
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    position: relative;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 15px solid #a23;
+    border-right: 2px solid #a23;
+    box-shadow: 2px 2px 15px #ccc;
+}
+
+.reveal blockquote::before {
+    content: "\201C"; /*Unicode for Left Double Quote*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top:5px;
+}
+
+.reveal blockquote::after {
+    content: "";
 }

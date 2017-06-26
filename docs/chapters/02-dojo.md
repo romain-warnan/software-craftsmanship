@@ -1,4 +1,4 @@
-<!-- .slide: data-background-image="images/swcraftmanship.jpg" data-background-size="1200px" class="chapter" -->
+<!-- .slide: data-background-image="images/swcraftmanship.jpg" data-background-size="100%" class="chapter" -->
 ## 2
 ### Coding dojo
 

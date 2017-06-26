@@ -1,7 +1,3 @@
-/*body {*/
-/*background-color: #222;;*/
-/*}*/
-
 .reveal .main-title {
     /* Empty */
 }
@@ -9,10 +5,6 @@
 .reveal .chapter {
     /* Empty */
 }
-
-/*.reveal {*/
-/*color: #eee;*/
-/*}*/
 
 .reveal .center {
     text-align: center;
@@ -39,10 +31,6 @@
     font-size: 5em;
 }
 
-.reveal .exercice h2 {
-    font-size: 5em;
-}
-
 .reveal .slides img {
     border: none;
     background: none;
@@ -60,10 +48,6 @@
 
 .reveal .tp.slide-background.present {
     opacity: 0.2;
-}
-
-.reveal .exercice.slide-background.present {
-    opacity: 0.3;
 }
 
 .reveal .slide {

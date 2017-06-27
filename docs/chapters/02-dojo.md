@@ -8,7 +8,7 @@
 ### Qu’est-ce qu’un _coding dojo_ ?
 
 Une réunion de 5 à 20 développeurs
- - qui se réunissent pour résoudre un problème informatique
+ - qui se mettent ensemble pour résoudre un problème informatique
 
 Les objectifs :
  - s’entrainer pour devenir meilleur (comme dans un sport)
@@ -19,16 +19,16 @@ Les objectifs :
 <!-- .slide: class="slide" -->
 ### Postulat
 
-Acquérir des compétences dans le codage est un processus permanent
+Acquérir des compétences dans le codage est un <strong>processus permanent</strong>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Caractéristiques
 
-Environement non compétitif, collaboratif et ludique
+Environement <strong>non compétitif</strong>, <strong>collaboratif</strong> et <strong>ludique</strong>
 
-Les personnes de tous les niveaux de compétence sont les bienvenus
+Les personnes de <strong>tous les niveaux de compétence</strong> sont les bienvenus
 
 On peut essayer de nouvelles idées sans aucun risque
 
@@ -79,5 +79,5 @@ Session improvisée : _RandoriKata_
 
  - le problème est résolu par paires : pilote et co-pilote
  - chacun peut aider
- - chaque paire à entre 5 et 7 minutes pour avancer
+ - chaque paire dispose de 5 à 7 minutes pour avancer
  - à la fin du temps, le pilote retourne dans l’assistance et le co-pilote devient pilote

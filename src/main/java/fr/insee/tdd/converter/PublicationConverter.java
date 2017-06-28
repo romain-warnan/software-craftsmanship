@@ -1,6 +1,7 @@
-package fr.insee.tdd.model;
+package fr.insee.tdd.converter;
 
 import fr.insee.tdd.dao.PublicationDao;
+import fr.insee.tdd.model.Publication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;

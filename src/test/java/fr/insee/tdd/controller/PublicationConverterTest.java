@@ -1,7 +1,7 @@
 package fr.insee.tdd.controller;
 
 import fr.insee.tdd.model.Publication;
-import fr.insee.tdd.model.PublicationConverter;
+import fr.insee.tdd.converter.PublicationConverter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package fr.insee.tdd;
 
-import fr.insee.tdd.model.PublicationConverter;
+import fr.insee.tdd.converter.PublicationConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

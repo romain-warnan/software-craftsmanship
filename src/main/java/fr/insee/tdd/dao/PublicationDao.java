@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,6 +20,7 @@ public class PublicationDao {
     private static final String SQL_FIND_ALL = "select * from publications";
     private static final String SQL_INSERT = "insert into publications (id, titre, sous_titre, date_parution) values (next value for seq, :titre, :sousTitre, :dateParution)";
     private static final String SQL_UPDATE = "update publications set titre = :titre, sous_titre = :sousTitre, date_parution = :dateParution where id = :id";
+    private static final String SQL_DERNIERES_PUBLICATIONS = "select * from publications where date_parution is not null order by date_parution desc limit :limite";
 
     @Autowired
     private DataSource dataSource;
@@ -61,5 +63,13 @@ public class PublicationDao {
                 "dateParution", publication.getDateParution(),
                 "id", publication.getId()
         ));
+    }
+
+    private List<Publication> dernieresPublications(int limite) {
+        return template.query(SQL_DERNIERES_PUBLICATIONS, ImmutableMap.of("limite", limite), rowMapper);
+    }
+
+    public List<Publication> cinqDernieresPublications() {
+        return this.dernieresPublications(5);
     }
 }

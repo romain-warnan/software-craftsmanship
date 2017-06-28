@@ -53,4 +53,10 @@ public class PublicationDaoTest {
         publication.setDateParution(new Date(1234567L));
         publicationDao.update(publication);
     }
+
+    @Test
+    public void cinqDernieresPublications() {
+        List<Publication> publications = publicationDao.cinqDernieresPublications();
+        assertEquals(5, publications.size());
+    }
 }

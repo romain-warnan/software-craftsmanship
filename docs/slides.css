@@ -80,7 +80,16 @@
     margin-right: 7px;
 }
 
+.reveal ol li:before {
+    margin-right: 7px;
+}
+
 .reveal ul li {
+    font-size: 80%;
+    color: #a23;
+}
+
+.reveal ol li {
     font-size: 80%;
     color: #a23;
 }

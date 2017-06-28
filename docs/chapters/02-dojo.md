@@ -56,7 +56,7 @@ Lancement : protocol « demain, hier, aujourd’hui »
 Codage
  - 40 minutes
  - session préparée
- - session improvisée
+ - OU session improvisée
 
 Mi-temps
  - faire le point sur l’état d’avancement
@@ -81,3 +81,15 @@ Session improvisée : _RandoriKata_
  - chacun peut aider
  - chaque paire dispose de 5 à 7 minutes pour avancer
  - à la fin du temps, le pilote retourne dans l’assistance et le co-pilote devient pilote
+ 
+===
+
+<!-- .slide: class="slide" -->
+### Méthodes utilisées
+
+Développement piloté par les tests : _TDD_
+ - voir partie suivante
+
+Avancer à petits pas
+ - chaque étape doit être la plus petite possible
+ <blockquote>— Oui, la plus petite possible.</blockquote>

@@ -31,9 +31,23 @@ Cette déclaration peut être copiée librement, quelle que soit la forme, mais 
 
 ===
 
-[Signer le manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr) <!-- .element: class="button" -->
+<!-- .slide: class="slide" -->
+### Critique du manifeste
+
+Le terme « indispensable », trop fort
+ - beaucoup de contre exemples
+ - la colonne de gauche est un bon départ
+ - la colonne de droite fixe une direction
+
+Le fait de s’auto-proclamer « artisan du logiciel »
+ - voir les choses comme dans une corporation
+ - excellence plus qu’élitisme
+
+Écueils possibles
+ - _refactoring_ incessant et ne pas livrer
+ - taux de couverture de 100 % sans répondre au client
+ - tester les dernières technologies alors que l’entreprise perd de l’argent
 
 ===
 
-<!-- .slide: class="slide" -->
-### À faire
+[Signer le manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr) <!-- .element: class="button" -->

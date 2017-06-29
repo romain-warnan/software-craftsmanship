@@ -41,3 +41,9 @@ Trois étapes
   
  3. Création d’un contrôleur retournant le flux RSS
   - sérialisé sous forme de XML
+  
+===
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KHx9S9_UFLs" frameborder="0" allowfullscreen></iframe>
+
+

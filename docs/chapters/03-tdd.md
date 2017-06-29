@@ -21,3 +21,23 @@
  4. Retourner à l’étape 1.
 
 Le codage se fait à un rythme cadancé
+
+===
+
+<!-- .slide: class="slide" -->
+### Démonstration du principe
+ 
+Cas simplifié mais réel :
+
+ - créer un flux RSS contenant les cinq dernières publications de l’Insee
+
+Trois étapes
+
+ 1. Récupérer les 5 dernières publications dans la base de donnée
+  - base de test HSQLDB
+ 
+ 2. Convertir la liste de 5 publications en objet de type `FluxRss`
+  - utilisation d’un _builder_
+  
+ 3. Création d’un contrôleur retournant le flux RSS
+  - sérialisé sous forme de XML

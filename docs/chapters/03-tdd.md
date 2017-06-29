@@ -44,6 +44,6 @@ Trois étapes
   
 ===
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KHx9S9_UFLs" frameborder="0" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/KHx9S9_UFLs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 

@@ -1,5 +1,6 @@
 package fr.insee.tdd.dao;
 
+import fr.insee.tdd.Tests;
 import fr.insee.tdd.model.Publication;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,7 +9,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,20 +37,14 @@ public class PublicationDaoTest {
 
     @Test
     public void insert() {
-        Publication publication = new Publication();
-        publication.setTitre("Titre");
-        publication.setSousTitre("Sous-titre");
-        publication.setDateParution(new Date(1234567L));
+        Publication publication = Tests.unePublication();
         publicationDao.insert(publication);
     }
 
     @Test
     public void update() {
-        Publication publication = new Publication();
+        Publication publication = Tests.unePublication();
         publication.setId(1L);
-        publication.setTitre("Titre");
-        publication.setSousTitre("Sous-titre");
-        publication.setDateParution(new Date(1234567L));
         publicationDao.update(publication);
     }
 

@@ -25,7 +25,7 @@ public class PublicationControllerTest {
 	@Test
 	public void publication() throws Exception {
 		mockMvc
-			.perform(get("/publication/1"))
+			.perform(get("/unePublication/1"))
 			.andExpect(status().isOk())
 			.andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON_UTF8));
 	}

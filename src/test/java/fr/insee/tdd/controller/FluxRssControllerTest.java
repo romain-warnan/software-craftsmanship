@@ -31,6 +31,6 @@ public class FluxRssControllerTest {
 			.perform(get("/rss"))
 			.andExpect(status().isOk())
 			.andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_RSS_XML))
-            .andExpect((content().node(hasXPath("//rss/channel/item"))));
+            .andExpect(content().node(hasXPath("//rss/channel/item")));
 	}
 }

@@ -64,12 +64,4 @@ public class PublicationDao {
                 "id", publication.getId()
         ));
     }
-
-    private List<Publication> dernieresPublications(int limite) {
-        return template.query(SQL_DERNIERES_PUBLICATIONS, ImmutableMap.of("limite", limite), rowMapper);
-    }
-
-    public List<Publication> cinqDernieresPublications() {
-        return this.dernieresPublications(5);
-    }
 }

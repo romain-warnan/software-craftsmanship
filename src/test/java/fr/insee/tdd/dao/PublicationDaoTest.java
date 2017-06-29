@@ -47,10 +47,4 @@ public class PublicationDaoTest {
         publication.setId(1L);
         publicationDao.update(publication);
     }
-
-    @Test
-    public void cinqDernieresPublications() {
-        List<Publication> publications = publicationDao.cinqDernieresPublications();
-        assertEquals(5, publications.size());
-    }
 }

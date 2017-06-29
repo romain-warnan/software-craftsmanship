@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.List;
 
 @SuppressWarnings("serial")
-@XmlType(name = "channel", propOrder = { "title", "link", "description", "language", "copyright", "webMaster", "pubDate", "category", "image", "items" })
+@XmlType(name = "channel", propOrder = { "title", "link", "description", "language", "copyright", "webMaster", "pubDate", "category", "items" })
 public class Channel implements Serializable {
 
 	private String title, link, description, language, copyright, webMaster, category;
@@ -57,7 +57,7 @@ public class Channel implements Serializable {
 	}
 
 	@XmlElement
-	@XmlJavaTypeAdapter(value = DatePublicationAdapter.class)
+	@XmlJavaTypeAdapter(DatePublicationAdapter.class)
 	public Date getPubDate() {
 		return pubDate;
 	}

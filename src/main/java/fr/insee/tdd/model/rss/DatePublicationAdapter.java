@@ -1,24 +1,28 @@
 package fr.insee.tdd.model.rss;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class DatePublicationAdapter extends XmlAdapter<String, Date> {
 
-    private static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, dd MMM YYYY HH:mm:ss 'GMT'");
 
     @Override
     public Date unmarshal(String string) {
-        LocalDate localDate = LocalDate.parse(string, formatter);
-        return Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
+        LocalDateTime localDate = LocalDateTime.parse(string, formatter);
+        return Date.from(localDate.atZone(ZoneId.systemDefault()).toInstant());
     }
 
     @Override
     public String marshal(Date date) {
-        LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        if (date == null) {
+            return "";
+        }
+        Date d = new Date(date.getTime());
+        LocalDateTime localDate = d.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
         return localDate.format(formatter);
     }
 }

@@ -51,3 +51,53 @@ Le fait de s’auto-proclamer « artisan du logiciel »
 ===
 
 [Signer le manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr) <!-- .element: class="button" -->
+
+===
+
+<!-- .slide: class="slide" -->
+### Quelques explications
+
+Deux tendances à éviter
+ - aller au plus vite pour que ça marche car risque que cela s’effondre
+ - qualité oui, mais pas œuvre d’art car risque de ne jamais livrer
+
+<blockquote>
+Construire un logiciel de qualité, c’est chercher cet équilibre, créer un système qui réponde à des besoins tout en reposant sur des bases saines.
+</blockquote>
+
+Coût de la non qualité
+- stratégique
+- financier : application plus coûteuse à faire évoluer
+- humain : démotivation…
+
+===
+
+<!-- .slide: class="slide" -->
+### Culture de l’artisanat du logiciel
+
+Attitude du développeur
+ - standards de code
+ - continuer à apprendre
+ - lire des livres, des blogs
+ - s’entrainer en testant des nouveaux langages
+ - rencontrer d’autres développeurs
+ - trouver des mentors
+
+Quelques bonnes pratiques
+ - développement piloté par les tests
+ - binômage
+ - dojos
+ - revues de code
+ - intégration continue
+
+===
+
+<!-- .slide: class="slide" -->
+### Culture de l’artisanat du logiciel
+
+À l’échelle de l’entreprise
+ - donner de l’autonomie aux développeurs dans leurs pratiques
+ - favoriser les échanges entre développeurs
+ - budget pour l’apprentissage
+ - organiser les bureaux pour le travail collectif
+ - identifier les meneurs et leur donner mandat pour diffuser leur savoir-fairt

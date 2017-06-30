@@ -19,7 +19,7 @@ Autres bénéfices
  - améliorer la qalité du logiciel
  - partager de connaissance fonctionnelle (« propriété collective du code »)
  - apprendre : former les plus jeunes, les derniers arrivés
- 
+
 ===
 
 <!-- .slide: class="slide" -->
@@ -56,7 +56,7 @@ Participants
  
 Sélection du code
  - code complexe, nouveau concept, qui fait peur, sujet à regressions…
- 
+
 ===
 
 <!-- .slide: class="slide" -->

@@ -28,7 +28,7 @@ Acquérir des compétences dans le codage est un <strong>processus permanent</st
 
 Environement <strong>non compétitif</strong>, <strong>collaboratif</strong> et <strong>ludique</strong>
 
-Les personnes de <strong>tous les niveaux de compétence</strong> sont les bienvenus
+Les personnes de <strong>tous les niveaux de compétence</strong> sont les bienvenues
 
 On peut essayer de nouvelles idées sans aucun risque
 
@@ -48,9 +48,9 @@ Un projecteur
 <!-- .slide: class="slide" -->
 ### Déroulement
 
-Lancement : protocol « demain, hier, aujourd’hui »
+Lancement : protocole « demain, hier, aujourd’hui »
  - 2 minutes : decider d’une date pour la prochaine session
- - 25 – 30 minutes : retrospective rapide de la précédente session
+ - 30 minutes : retrospective de la précédente session
  - 10 minutes : decider d’un sujet pour la session du jour
 
 Codage
@@ -81,7 +81,7 @@ Session improvisée : _RandoriKata_
  - chacun peut aider
  - chaque paire dispose de 5 à 7 minutes pour avancer
  - à la fin du temps, le pilote retourne dans l’assistance et le co-pilote devient pilote
- 
+
 ===
 
 <!-- .slide: class="slide" -->

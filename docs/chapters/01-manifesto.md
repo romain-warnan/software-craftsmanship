@@ -50,16 +50,12 @@ Le fait de s’auto-proclamer « artisan du logiciel »
 
 ===
 
-[Signer le manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr) <!-- .element: class="button" -->
-
-===
-
 <!-- .slide: class="slide" -->
 ### Quelques explications
 
 Deux tendances à éviter
- - aller au plus vite pour que ça marche car risque que cela s’effondre
- - qualité oui, mais pas œuvre d’art car risque de ne jamais livrer
+ - aller au plus vite pour que ça marche (risque d’effondrement)
+ - qualité oui, mais pas œuvre d’art (risque de retard)
 
 <blockquote>
 Construire un logiciel de qualité, c’est chercher cet équilibre, créer un système qui réponde à des besoins tout en reposant sur des bases saines.
@@ -101,3 +97,8 @@ Quelques bonnes pratiques
  - budget pour l’apprentissage
  - organiser les bureaux pour le travail collectif
  - identifier les meneurs et leur donner mandat pour diffuser leur savoir-fairt
+
+===
+
+[Signer le manifeste](http://manifesto.softwarecraftsmanship.org/#/fr-fr) <!-- .element: class="button" -->
+

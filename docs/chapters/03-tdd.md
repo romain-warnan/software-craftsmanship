@@ -44,6 +44,10 @@ Trois étapes
   
 ===
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/KHx9S9_UFLs?rel=0" frameborder="0" allowfullscreen></iframe>
+<!-- .slide: class="slide" -->
+### Rapide présentation du code existant 
+
+<video controls src="videos/tdd-0.mp4"></video>
+
 
 

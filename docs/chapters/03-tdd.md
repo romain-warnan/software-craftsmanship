@@ -41,13 +41,11 @@ Trois étapes
   
  3. Création d’un contrôleur retournant le flux RSS
   - sérialisé sous forme de XML
-  
+
 ===
 
 <!-- .slide: class="slide" -->
 ### Rapide présentation du code existant 
 
-<video controls src="videos/tdd-0.mp4"></video>
-
-
+<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-0.mp4"></video>
 

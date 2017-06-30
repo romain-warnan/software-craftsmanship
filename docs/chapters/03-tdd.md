@@ -49,3 +49,24 @@ Trois étapes
 
 <video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-0.mp4"></video>
 
+===
+
+<!-- .slide: class="slide" -->
+### Récupérer les 5 dernières publications dans la base de donnée
+
+<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-1.mp4"></video>
+
+===
+
+<!-- .slide: class="slide" -->
+### Convertir la liste de 5 publications en objet de type `FluxRss`
+
+<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-2.mp4"></video>
+
+===
+
+<!-- .slide: class="slide" -->
+### Création d’un contrôleur retournant le flux RSS
+
+<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-3.mp4"></video>
+

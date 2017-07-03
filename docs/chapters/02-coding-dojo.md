@@ -11,7 +11,7 @@ Une réunion de 5 à 20 développeurs
  - qui se mettent ensemble pour résoudre un problème informatique
 
 Les objectifs :
- - s’entrainer pour devenir meilleur (comme dans un sport)
+ - s’entraîner pour devenir meilleur (comme dans un sport)
  - en s’amusant
 
 ===
@@ -26,7 +26,7 @@ Acquérir des compétences dans le codage est un <strong>processus permanent</st
 <!-- .slide: class="slide" -->
 ### Caractéristiques
 
-Environement <strong>non compétitif</strong>, <strong>collaboratif</strong> et <strong>ludique</strong>
+Environnement <strong>non-compétitif</strong>, <strong>collaboratif</strong> et <strong>ludique</strong>
 
 Les personnes de <strong>tous les niveaux de compétence</strong> sont les bienvenues
 
@@ -49,9 +49,9 @@ Un projecteur
 ### Déroulement
 
 Lancement : protocole « demain, hier, aujourd’hui »
- - 2 minutes : decider d’une date pour la prochaine session
- - 30 minutes : retrospective de la précédente session
- - 10 minutes : decider d’un sujet pour la session du jour
+ - 2 minutes : décider d’une date pour la prochaine session
+ - 30 minutes : rétrospective de la précédente session
+ - 10 minutes : décider d’un sujet pour la session du jour
 
 Codage
  - 40 minutes

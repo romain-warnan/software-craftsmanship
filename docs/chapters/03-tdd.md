@@ -20,20 +20,20 @@
   
  4. Retourner à l’étape 1.
 
-Le codage se fait à un rythme cadancé
+Le codage se fait à un rythme cadencé
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Démonstration du principe
  
-Cas simplifié mais réel :
+Cas simplifié, mais réel :
 
  - créer un flux RSS contenant les cinq dernières publications de l’Insee
 
 Trois étapes
 
- 1. Récupérer les 5 dernières publications dans la base de donnée
+ 1. Récupérer les 5 dernières publications dans la base de données
   - base de test HSQLDB
  
  2. Convertir la liste de 5 publications en objet de type `FluxRss`
@@ -47,26 +47,26 @@ Trois étapes
 <!-- .slide: class="slide" -->
 ### Rapide présentation du code existant 
 
-<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-0.mp4"></video>
+<video controls src="videos/tdd-0.mp4"></video>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Récupérer les 5 dernières publications dans la base de donnée
 
-<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-1.mp4"></video>
+<video controls src="videos/tdd-1.mp4"></video>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Convertir la liste de 5 publications en objet de type `FluxRss`
 
-<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-2.mp4"></video>
+<video controls src="videos/tdd-2.mp4"></video>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Création d’un contrôleur retournant le flux RSS
 
-<video controls src="https://media.githubusercontent.com/media/romain-warnan/software-craftsmanship/master/docs/videos/tdd-3.mp4"></video>
+<video controls src="videos/tdd-3.mp4"></video>
 

@@ -8,7 +8,7 @@
 ### Objectifs de la revue de code
  
 Comparaison avec un article de presse
- - fond : le code fonctionne correctemment
+ - fond : le code fonctionne correctement
  - forme : le code est clair, lisible et respecte les standards
  
 Bénéfice principal
@@ -16,7 +16,7 @@ Bénéfice principal
  - efficacité supérieure à celle des tests
 
 Autres bénéfices
- - améliorer la qalité du logiciel
+ - améliorer la qualité du logiciel
  - partager de connaissance fonctionnelle (« propriété collective du code »)
  - apprendre : former les plus jeunes, les derniers arrivés
 
@@ -35,7 +35,7 @@ Détection des défauts
 Code sélectionné et communiqué à l’avance
 
 Statut et suivi
- - le code revu est acceptée ou rejeté
+ - le code revu est accepté ou rejeté
  - les défauts retenus sont enregistrés et leur correction est vérifiée
 
 ===
@@ -55,7 +55,7 @@ Participants
  - un gardien du temps
  
 Sélection du code
- - code complexe, nouveau concept, qui fait peur, sujet à regressions…
+ - code complexe, nouveau concept, qui fait peur, sujet à régressions…
 
 ===
 
@@ -63,15 +63,15 @@ Sélection du code
 ### La revue de code par un pair
 
 En binôme
- - d’abord l’auteur présente le code
+ - d’abord, l’auteur présente le code
  - ensuite le relecteur navigue dans le code
 
 Périmètre
  - une seule fonctionnalité
- - dès que le développement est terminée
+ - dès que le développement est terminé
  
 Systématique
- - revue est systématique et obligatoire
+ - revue systématique et obligatoire
  - rajouter une colonne entre « en cours » et « en recette »
 
 Outillée

@@ -47,26 +47,26 @@ Trois étapes
 <!-- .slide: class="slide" -->
 ### Rapide présentation du code existant 
 
-<video controls src="videos/tdd-0.mp4"></video>
+<video controls src="mp4/tdd-0.mp4"></video>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Récupérer les 5 dernières publications dans la base de donnée
 
-<video controls src="videos/tdd-1.mp4"></video>
+<video controls src="mp4/tdd-1.mp4"></video>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Convertir la liste de 5 publications en objet de type `FluxRss`
 
-<video controls src="videos/tdd-2.mp4"></video>
+<video controls src="mp4/tdd-2.mp4"></video>
 
 ===
 
 <!-- .slide: class="slide" -->
 ### Création d’un contrôleur retournant le flux RSS
 
-<video controls src="videos/tdd-3.mp4"></video>
+<video controls src="mp4/tdd-3.mp4"></video>
 

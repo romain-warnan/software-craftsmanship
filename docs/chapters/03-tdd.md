@@ -69,4 +69,3 @@ Trois étapes
 ### Création d’un contrôleur retournant le flux RSS
 
 <video controls src="mp4/tdd-3.mp4"></video>
-

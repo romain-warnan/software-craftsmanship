@@ -11,8 +11,8 @@ Une réunion de 5 à 20 développeurs
  - qui se mettent ensemble pour résoudre un problème informatique
 
 Les objectifs :
- - s’entraîner pour devenir meilleur (comme dans un sport)
- - en s’amusant
+ - s’entraîner pour devenir meilleur
+ - en s’amusant (comme dans un sport)
 
 ===
 
@@ -51,7 +51,7 @@ Un projecteur
 Lancement : protocole « demain, hier, aujourd’hui »
  - 2 minutes : décider d’une date pour la prochaine session
  - 30 minutes : rétrospective de la précédente session
- - 10 minutes : décider d’un sujet pour la session du jour
+ - 10 minutes : présentation de la session du jour
 
 Codage
  - 40 minutes

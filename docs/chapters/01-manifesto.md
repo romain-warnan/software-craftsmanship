@@ -35,7 +35,7 @@ but only in its entirety through this notice.
 ===
 
 <!-- .slide: class="slide" -->
-### Manifeste
+### Manifeste de l’artisanat du logiciel
 
 <blockquote>
 En tant qu’aspirants Artisans du Logiciel, nous relevons le niveau du développement professionnel de logiciels par la pratique et en aidant les autres à acquérir le savoir-faire. Grâce à ce travail, nous avons appris à apprécier :
@@ -81,7 +81,7 @@ Le fait de s’auto-proclamer « artisan du logiciel »
 ===
 
 <!-- .slide: class="slide" -->
-### Quelques explications
+### Quelques éclaircissements sur le manifeste
 
 Deux tendances à éviter
  - aller au plus vite pour que ça marche : risque d’effondrement
@@ -102,19 +102,17 @@ Coût de la non-qualité
 ### Culture de l’artisanat du logiciel
 
 Attitude du développeur
- - standards de code
+ - respecter les standards de code
  - continuer à apprendre
- - lire des livres, des blogs
  - s’entraîner en testant des nouveaux langages
+ - lire des livres, des blogs
  - rencontrer d’autres développeurs
- - trouver des mentors
 
 Quelques bonnes pratiques
  - développement piloté par les tests
  - binômage
  - dojos
  - revues de code
- - intégration continue
 
 ===
 
@@ -122,8 +120,9 @@ Quelques bonnes pratiques
 ### Culture de l’artisanat du logiciel
 
 À l’échelle de l’entreprise
+ - pratiquer l’intégration continue
  - donner de l’autonomie aux développeurs dans leurs pratiques
  - favoriser les échanges entre développeurs
- - budget pour l’apprentissage
+ - allouer un budget conséquent à l’apprentissage
  - organiser les bureaux pour le travail collectif
  - identifier les meneurs et leur donner mandat pour diffuser leur savoir-faire
